@@ -1,6 +1,12 @@
 <?php
-
+    /*chama conexao com o banco*/
     include_once('conexao.php');
+
+    /*valido se o usuario vai digitar usuario e senha, se digitar jogo para index.html*/
+    if(empty($_POST['txt_usuario']) || empty($_POST['txt_senha'])) {
+        header('Location: index.html');
+        exit();
+    }
 
     $usuario= $_POST['txt_usuario'];
     $senha= $_POST['txt_senha'];

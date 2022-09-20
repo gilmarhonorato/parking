@@ -1,21 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=montserrat:600|Open+Sans:600&display=swap');
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #6c80c4;
-}
-
-.login{
-    background-color: rgb(0, 0, 0, 0.8);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px;
-    border-radius: 15px;
-    color: white;
-}
-
 
 *{
     margin: 0;

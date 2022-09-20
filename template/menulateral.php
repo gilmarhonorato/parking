@@ -16,15 +16,15 @@
 
 <div class="sidebar">
     <header>Menu</header>
-    <a href="principalParking.html" class="active">
+    <a href="#" class="active">
         <i class="fas fa-car"></i>
         <span>Parking</span>
     </a>
-    <a href="relatorio.html">
+    <a href="#">
         <i class="fas fa-user"></i>
         <span>Relatórios</span>
     </a>
-    <a href="usuarios.html">
+    <a href="#">
         <i class="fa-solid fa-user"></i>
         <span>Usuários</span>
     </a>
@@ -41,8 +41,6 @@
 
 <body>
 
-
-    <h3>teste Gilmar </h3>
 </body>
 
 </html>

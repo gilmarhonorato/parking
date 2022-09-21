@@ -8,12 +8,10 @@
 }
 
 .sidebar{
-    position: fixed;
+    position: static;
     width: 240px;
-    left: -240px;
     height: 100%;
     background: #1e1e1e;
-    transition: all .5s ease;
 }
 
 .sidebar header{
@@ -23,7 +21,7 @@
     text-align: center;
     background: #1b1b1b;
     user-select: none;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .sidebar a{
@@ -42,10 +40,11 @@
 }
 
 a.active, a.hover{
+    
    border-left: 5px solid #593632;
    color: #b93632; 
 }
-
+/*
 .sidebar a i{
     font-size: 23px;
     margin-right: 16px;
@@ -59,6 +58,7 @@ a.active, a.hover{
 #check{
     display: none;
 }
+
 label #btn,label #cancel{
     position: absolute;
     cursor: pointer;
@@ -121,4 +121,4 @@ a:hover{
 .sidebar a:hover span{
     opacity: 1;
     visibility: visible;
-}}
+}

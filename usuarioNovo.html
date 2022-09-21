@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/style.css" content="width=device-width,initial-scale=1.0">
+    <title>Usuários</title>
+
+</head>
+
+</style>
+<body>
+
+        <a class="btn-voltar" href="usuarios.html">Voltar</a>
+
+    <div id="form-usuario">
+        <form method="post" action="editaUsuario.php">
+            <div id="novoUsuario">
+                Novo usuario
+                <hr>
+            </div>
+            <br>
+            <br>
+            Nome Completo
+            <input thype="text"  name="txt_nomeCompleto">
+            E-mail
+            <input thype="email" required name="txt_email">
+            <br>
+            <br>
+            Usuário
+            <input type="txt" required name="txt_usuario">
+            Permissão
+            <select class="permissao">
+                <option value="1">Operador</option>
+                <option value="2">Gerencia</option>
+                <option value="3">Admin</option>
+            </select>
+            <br>
+            <br>
+            Senha
+            <input type="password" required name="txt_senha">
+            Confirmação de Senha
+            <input type="password" required name="txt_senha">
+            <br>
+            <br>
+            <a class="btn-gravar"  href="usuarios.html">Gravar</a>
+        </form>        
+    </div>
+
+</body>
+
+</html>

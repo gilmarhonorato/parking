@@ -17,7 +17,7 @@
         /*se os dados forem igual loga na pagina princicpalParking.html*/
         if (mysqli_num_rows($sql_logar) !=0) {
 
-            header ('location:principalParking.html');
+            header ('location:usuarios.html');
         }
 
         else{

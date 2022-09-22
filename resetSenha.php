@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -17,9 +17,9 @@
             
             <br>
             E-mail <br>
-            <input type="email"  name="" id="" required> <br>
+            <input type="email"  name="txt_email" required> <br>
             Confirme o e-mail <br>
-            <input type="email"  name="" id="" required> <br>
+            <input type="email"  name="txt_confirmaEmail" required> <br>
             <br>
             <br>
             <input type="button" value="Enviar link para troca senha" 

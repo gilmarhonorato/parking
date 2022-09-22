@@ -12,7 +12,7 @@
 
     
         <form class="res" action="post">
-            Esqueci minha Senha <hr>
+            Esqueci minha Senhaaa <hr>
             <br>
             
             <br>

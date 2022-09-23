@@ -1,16 +1,61 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css" content="width=device-width,initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/6c5d6277bf.js" crossorigin="anonymous"></script>
     <title>Empresa</title>
+
 </head>
+
+</style>
+
 <body>
-    <?php    
-    include_once('menulateral.php');
-    ?>
-    <h3>Pagina Empresa</h3>
+
+
+    <button class="edit" type="button">Editar Empresa</button>
+    <button class="voltar" type="button">Voltar</button>
+    <hr>
+    <div id="form-usuario">
+        <form method="post" action="empresa.php">
+            <div id="dadosBasicos">
+                <h2>Dados Básicos</h2>
+            </div>
+            <br>
+            
+            Nome
+            <input thype="text" name="txt_nomeEmpresa">
+            CNPJ
+            <input type="text" name="cnpj" class="ls-mask-cnpj" placeholder="00.000.000/0000-00">
+            <br>
+            <br>
+            Razão Social
+            <input thype="text" name="txt_razaoSocial">
+            Cidade
+            <input thype="text" name="txt_cidade">
+            <br>
+            <br>
+            Endereco
+            <input thype="text" name="txt_endereco">
+            Estado
+            <input thype="text" name="txt_estado">
+            <br>
+            <br>
+            <div id="config">
+                <h2>Configuração</h2>
+            </div>
+            <br>
+            
+            Total de Vagas
+            <input thype="text" name="txt_totalVagas">
+            <br>
+            <br>
+            Notificar Vagas
+            <input thype="text" name="txt_totalVagas">
+        </form>
+    </div>
+
 </body>
+
 </html>
